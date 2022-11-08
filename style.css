@@ -1,0 +1,531 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Page 1 */
+
+.solare{
+    background-image: url(./img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 920px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 75px 0 42px 0;
+}
+
+.solare-logo{
+    width: 182px;
+    height: 52px;
+}
+
+.solare-text{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  margin-top: 140px;
+}
+
+.solare-title{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 90px;
+    font-variant: small-caps;
+    color: #fff;
+    border: 1px solid transparent;
+    margin-bottom: 3px;
+}
+
+.solare-sub-text{
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 60px;
+    color: #fff;
+    border: 1px solid transparent;
+    margin-bottom: 50px;
+}
+
+.solare-konsule{
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    margin-bottom: 250px;
+}
+
+.group-25{
+    width: 100px;
+    height: 100px;
+    position: absolute; 
+}
+
+.konsule-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 16px;
+    margin-left: 45px;
+}
+
+.konsule-title:hover{
+    color: yellow;
+    cursor: pointer;
+    transition: 3s;
+    font-size: 20px;
+}
+
+
+.brand-logo{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.brand-insta{
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.brand-tg{
+    margin-right: 20px;
+    width: 30px;
+    height: 22px;
+}
+
+.brand-whatsapp{
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.brand-facebook{
+    width: 17px;
+    height: 30px;
+}
+
+/* page2 */
+
+.usluga{
+    margin-top: 150px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.usluga-content{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.usluga-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 90px;
+}
+
+.us-text-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #303030;
+    margin-bottom: 15px;
+}
+
+.us-text-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #303030;
+    margin-bottom: 50px;
+}
+
+.us-text-text:nth-child(4){
+    margin-bottom: 30px;
+}
+
+.usluga-text-img{
+    width: 600px;
+    height: 670px;
+}
+
+.tarif{
+    margin-top: 150px;
+}
+
+.title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #868585;
+}
+
+.tarif-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.tarif-sub-content{
+    margin-right: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tarif-nav{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 120px;
+}
+
+.tarif-nav-title{
+    margin-right: 40px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #303030;
+}
+
+.tarif-nav-title:nth-child(3){
+    margin-right: 0px;   
+}
+
+.tarif-look{
+    display: flex;
+    flex-direction: row;
+}
+
+.tarif-look-img{
+    width: 235px;
+    height: 200px;
+    margin-right: 40px;
+}
+
+.tarif-look-text{
+    display: flex;
+    flex-direction: column;
+    width: 235px;
+    height: 114px;
+}
+
+.tarif-look-sub-text{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #303030;
+}
+
+.tarif-look-text-img{
+    margin-top: 80px;
+}
+
+.tarif-look-arrow-left{
+    width: 40px;
+    height: 10px;
+    margin-right: 22px;
+}
+
+.tarif-look-arrow-right{
+    width: 40px;
+    height: 10px;
+    transform: rotate(-180deg);
+}
+
+.tarif-text{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.tarif-text-sub{
+    margin-right: 40px;
+}
+
+.tarif-text-sub:nth-child(2){
+    margin-right: 0px;
+}
+
+.tarif-text-sub:nth-child(4){
+    margin-right: 0px;
+}
+
+.tarif-text-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #303030;
+    margin-bottom: 5px;
+}
+
+.tarif-text-p{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    width: 235px;
+    color: #303030;
+    margin-bottom: 17px;
+}
+
+
+
+.tarif-sub-img{
+    display: flex;
+    flex-direction: column;
+}
+
+.tarif-sub-img-title{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #303030;
+    margin-bottom: 17px;
+}
+
+.tarif-sub-img-img{
+    width: 600px;
+    height: 525px;
+}
+
+.elektr{
+    background-image: url(./img/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.elektr-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 57px;
+    width: 673px;
+    color: #FFFFFF;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.client{
+    margin-top: 150px;
+}
+
+.client-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.client-img{
+    width: 510px;
+    height: 370px;
+    margin-bottom: 32px;
+}
+
+.client-img-div{
+    position: relative;
+    margin-right: 91px;
+
+}
+
+.client-text-img{
+    position: absolute;
+    right: 132px;
+}
+
+.client-text-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #303030;
+    margin-bottom: 30px;
+}
+
+.client-text-sub-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #303030;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.client-text-sub-title:nth-child(5){
+    margin-bottom: 0;
+}
+
+.client-button{
+    width: 306px;
+    height: 100px;
+    margin-top: 65px;
+}
+
+.shag{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.h6-num{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #868585;
+    margin-bottom: 11px;
+}
+
+.shag-tit-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #868585;
+    margin-bottom: 60px;
+}
+
+.shag-title{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #303030;
+    margin-bottom: 2px;
+}
+
+.shag-text{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #303030;
+    width: 510px;
+    margin-bottom: 30px;
+    margin-right: 90px;
+}
+
+.shag-img{
+    width: 600px;
+    height: 730px;
+}
+
+.footer{
+    background-image: url(./img/Rectangle\ 13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Footer */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-input{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-input-zayavku, .footer-contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-input-zy-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+
+.footer-input-zy-input::placeholder{
+   padding: 11px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+
+.footer-input-zy-input{
+    background-color: transparent;
+    width: 510px;
+    height: 30px;
+    margin-bottom: 50px;
+    border-top:transparent;
+    border-right: transparent;
+    border-left: transparent;
+    margin-right: 90px;
+}
+
+.footer-btn{
+   width: 193px;
+   height: 100px;
+}
+
+.footer-contact-sub-title{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.footer-solare{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 126px;
+}
+
+.footer-solare-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
